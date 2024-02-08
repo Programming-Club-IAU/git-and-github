@@ -7,3 +7,4 @@ def print_staircase(n):
 n = int(input("Enter the size of the staircase: "))
 print_staircase(n)
 
+
