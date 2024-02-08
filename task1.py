@@ -4,7 +4,5 @@ def print_staircase(n):
         print('  ', end='')
         print('#' * i)
 
-
 n = int(input("Enter the size of the staircase: "))
-
 print_staircase(n)
