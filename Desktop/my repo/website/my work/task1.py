@@ -6,6 +6,6 @@ def staircase(size):
             print(space*" ","*"*(i), "*"*(i) )
             space= space-1
 
-size=int(input("Enter the number of rows: "))
+size=int(input("Enter the number of rows:"))
 
 staircase(size)
