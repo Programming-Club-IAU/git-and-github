@@ -8,4 +8,9 @@ def staircase(size):
 
 size=int(input("Enter the number of rows:"))
 
-staircase(size)
+if (size < 0):
+    print ("you enter a negtive number try again with postive number to print stars ")
+elif (size == 0):
+    print("hahaha i pass the tast my program will not crashe, no star will be printed")
+else:
+    staircase(size)
