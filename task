@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    def print_staircase(size):
+    for i in range(1, size + 1):
+        stairs = '*' * i
+        print( stairs + ' ' + stairs)
+
+size = int(input("Enter the size of the Staircase: "))
+print_staircase(size)
+
+
+}
